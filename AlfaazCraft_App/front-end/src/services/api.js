@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:8080/api/posts";
+const API = "https://alfaazcraft-backend.onrender.com/api/posts";
 
 export const getPosts = () => axios.get(API);
 export const getPost = (id) => axios.get(`${API}/${id}`);
